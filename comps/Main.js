@@ -2,6 +2,11 @@ import React, {useState} from 'react';
 import {View, Text, Button} from 'react-native';
 import Page1 from './Page1';
 import Bin from '../bin/Bin';
+import Upasana from '../Upasana/Upasana';  
+import Nico from '../Nico/Nico';
+import Matt from '../matt/matt';
+import Micah from '../Micah/Micah';
+import AComp from '../andrew/andrewComp';
 
 function Main(){
   const [showMenu, setShowMenu] = useState(false);
@@ -32,6 +37,11 @@ function Main(){
 
   return (
     <View>
+ 
+      <Matt/>
+
+      <Micah />
+
 
       <Text>Main Comp</Text>
       <Button
@@ -40,6 +50,7 @@ function Main(){
           setShowMenu(!showMenu);
         }}
       />
+      <AComp />
 
       <Button
         title="Show Page 1"
