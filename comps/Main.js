@@ -1,12 +1,16 @@
 import React, {useState} from 'react';
 import {View, Text, Button} from 'react-native';
 import Page1 from './Page1';
-import Bin from '../bin/Bin';
+upasana
 import Upasana from '../Upasana/Upasana';  
 import Nico from '../Nico/Nico';
+
 import Matt from '../matt/matt';
+
 import Micah from '../Micah/Micah';
+master
 import AComp from '../andrew/andrewComp';
+
 
 function Main(){
   const [showMenu, setShowMenu] = useState(false);
@@ -60,7 +64,6 @@ function Main(){
       />
       {menu}
       {page1}
-      <Bin />
     </View>
   )
 }
