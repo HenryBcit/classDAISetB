@@ -7,6 +7,7 @@
  */
 
 import React from 'react';
+import Emily from './Emily/Emily';
 import {
   SafeAreaView,
   StyleSheet,
@@ -23,6 +24,7 @@ function App(){
     <View style={styles.app}>
       <Text>Hi App</Text>
       <Main />
+      <Emily />
     </View>
   )
 }
