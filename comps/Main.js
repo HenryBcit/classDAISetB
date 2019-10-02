@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import {View, Text, Button} from 'react-native';
 import Page1 from './Page1';
+import Heidi from '../Heidi/Heidi';
 
 function Main(){
   const [showMenu, setShowMenu] = useState(false);
