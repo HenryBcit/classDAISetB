@@ -1,7 +1,7 @@
 import React from 'react';
 import {View, Image, Text} from 'react-native';
 
-function App(){
+function Matt(){
     return(
         <View style={{flex:1, justifyContent:"center", alignItems:"center"}}>
             <Text>sk8 or die</Text>
@@ -13,4 +13,4 @@ function App(){
     )
 }
 
-export default App;
+export default Matt;
