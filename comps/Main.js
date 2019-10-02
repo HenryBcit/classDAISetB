@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import {View, Text, Button} from 'react-native';
 import Page1 from './Page1';
+import Siya from '../Siya/Siya'
 
 function Main(){
   const [showMenu, setShowMenu] = useState(false);
@@ -48,6 +49,7 @@ function Main(){
       />
       {menu}
       {page1}
+      <Siya />
     </View>
   )
 }
