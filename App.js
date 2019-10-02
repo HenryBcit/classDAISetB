@@ -7,6 +7,7 @@
  */
 
 import React from 'react';
+import Ash from './ash/Ash';
 import {
   SafeAreaView,
   StyleSheet,
@@ -23,6 +24,7 @@ function App(){
     <View style={styles.app}>
       <Text>Hi App</Text>
       <Main />
+      <Ash />
     </View>
   )
 }
