@@ -18,6 +18,7 @@ import {
 } from 'react-native';
 import Main from './comps/Main';
 import styles from './styles/AppStyles';
+import Sherman from './Nico/Sherman';
 
 function App(){
   return (
