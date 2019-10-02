@@ -7,6 +7,7 @@ import Nico from '../Nico/Nico';
 import Matt from '../matt/matt';
 import Micah from '../Micah/Micah';
 import aComp from '../andrew/andrewComp';
+import AComp from '../andrew/andrewComp';
 
 
 function Main(){
@@ -51,7 +52,7 @@ function Main(){
           setShowMenu(!showMenu);
         }}
       />
-      <aComp />
+      <AComp />
 
       <Button
         title="Show Page 1"
