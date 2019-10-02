@@ -4,11 +4,11 @@
 
 import 'react-native';
 import React from 'react';
-import Page1 from '../comps/Page1';
+import Angela from '../Angela/angela';
 
 // Note: test renderer must be required after react-native.
 import renderer from 'react-test-renderer';
 
-it('renders Page1 correctly', () => {
-  renderer.create(<Page1 />);
+it('renders angela correctly', () => {
+  renderer.create(<Angela />);
 });
