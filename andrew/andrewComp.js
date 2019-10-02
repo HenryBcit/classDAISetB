@@ -4,7 +4,7 @@ import {View,
         Text
 } from 'react-native';
 
-function aComp(){
+function AComp(){
     return(
         <View>
             <Text>Hi</Text>
@@ -15,4 +15,4 @@ function aComp(){
         </View>
     );
 };
-export default aComp;
+export default AComp;

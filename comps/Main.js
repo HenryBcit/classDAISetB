@@ -9,7 +9,7 @@ import Matt from '../matt/matt';
 
 import Micah from '../Micah/Micah';
 master
-import aComp from '../andrew/andrewComp';
+import AComp from '../andrew/andrewComp';
 
 
 function Main(){
@@ -54,7 +54,7 @@ function Main(){
           setShowMenu(!showMenu);
         }}
       />
-      <aComp />
+      <AComp />
 
       <Button
         title="Show Page 1"
