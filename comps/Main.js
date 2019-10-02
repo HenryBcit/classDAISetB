@@ -13,7 +13,6 @@ import AComp from '../andrew/andrewComp';
 
 
 
-
 function Main(){
   const [showMenu, setShowMenu] = useState(false);
   const [showPage1, setShowPage1] = useState(false);
@@ -50,6 +49,7 @@ function Main(){
 
 
       <Text>Main Comp</Text>
+      <Tasha/>
       <Button
         title="Show Menu"
         onPress={()=>{
