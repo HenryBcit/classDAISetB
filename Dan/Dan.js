@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import {View, Text, Button} from 'react-native';
+import {View, Text, Image} from 'react-native';
 
 function Dan(){
   <View>
@@ -10,4 +10,4 @@ function Dan(){
   </View>
 }
 
-export default Dan; 
+export default Dan;
