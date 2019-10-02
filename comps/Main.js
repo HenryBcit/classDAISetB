@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import {View, Text, Button} from 'react-native';
 import Page1 from './Page1';
+import Matt from '../matt/matt';
 
 function Main(){
   const [showMenu, setShowMenu] = useState(false);
@@ -31,7 +32,7 @@ function Main(){
 
   return (
     <View>
-
+      <Matt/>
       <Text>Main Comp</Text>
       <Button
         title="Show Menu"
