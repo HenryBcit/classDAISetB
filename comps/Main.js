@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import {View, Text, Button} from 'react-native';
 import Page1 from './Page1';
+import Tasha from '../Tasha/Tasha';
 
 function Main(){
   const [showMenu, setShowMenu] = useState(false);
@@ -33,6 +34,7 @@ function Main(){
     <View>
 
       <Text>Main Comp</Text>
+      <Tasha/>
       <Button
         title="Show Menu"
         onPress={()=>{
