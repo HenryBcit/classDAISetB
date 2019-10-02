@@ -17,12 +17,14 @@ import {
 } from 'react-native';
 import Main from './comps/Main';
 import styles from './styles/AppStyles';
+import Dora from './comps/Dora';
 
 function App(){
   return (
     <View style={styles.app}>
       <Text>Hi App</Text>
       <Main />
+      <Dora />
     </View>
   )
 }
