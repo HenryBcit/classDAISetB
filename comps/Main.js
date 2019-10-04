@@ -1,6 +1,9 @@
 import React, {useState} from 'react';
 import {View, Text, Button} from 'react-native';
 import Page1 from './Page1';
+
+import Siya from '../Siya/Siya'
+
 import Heidi from '../Heidi/Heidi';
 import Deriqs from '../Deriq/deriq';
 import Bin from '../bin/Bin';
@@ -42,6 +45,10 @@ function Main(){
 
   return (
     <View>
+
+
+      <Text>Main Comp</Text>
+
  
       <Matt/>
 
@@ -50,13 +57,17 @@ function Main(){
 
       <Text>Main Comp</Text>
       <Tasha/>
+
       <Button
         title="Show Menu"
         onPress={()=>{
           setShowMenu(!showMenu);
         }}
       />
+
+=======
       <AComp />
+
 
       <Button
         title="Show Page 1"
@@ -67,10 +78,14 @@ function Main(){
       {menu}
       {page1}
 
+      <Siya />
+
+
       <Deriqs />
      
 
       <Bin />
+
 
     </View>
   )

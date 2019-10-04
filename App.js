@@ -8,6 +8,8 @@
 
 import React from 'react';
 
+
+
 import {
   SafeAreaView,
   StyleSheet,
@@ -18,13 +20,17 @@ import {
 } from 'react-native';
 import Main from './comps/Main';
 import styles from './styles/AppStyles';
+
 import Sherman from './Nico/Sherman';
+
 
 function App(){
   return (
     <View style={styles.app}>
       <Text>Hi App</Text>
       <Main />
+
+
 
     </View>
   )
